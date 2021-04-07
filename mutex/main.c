@@ -25,7 +25,7 @@ void *decrease() {
     pthread_mutex_unlock(&mutex1);
 }
 
-main() {
+void main() {
     int rc1, rc2;
     pthread_t thread1, thread2;
 
